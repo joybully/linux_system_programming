@@ -1,0 +1,12 @@
+Cmake is the program that makes buildfile.
+Cmake doesn't build the project but makes build file which can build the project.
+Cmake is used in C or C++.
+All projects using Cmake have to have CMakeLists.txt file in top directory which is in project directory.
+In CMakeLists.txt, there are neccesary informations for producing build file.
+The compile process will goes like this.
+First, Cmake will produce Makefile with CMakeList.txt.
+Second, execution file will be produce by instructions in Makefile.
+Cmake is cross-platform free and open-source software for build automation,testing, packaging and installation of software by using a compiler-independent method.
+Cmake supports directory hierarchies and applicaitons that depend on multiple libraries.
+Cmake can be used in Qt Creator, Ninja, Android Studio, Microsoft Visual Studio.
+Cmake is distributed as free and open-source software under a permissive BSD-3-Clause license.
